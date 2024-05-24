@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "win11"
+      VERSION: "winxp"
     devices:
       - /dev/kvm
       - /dev/net/tun
